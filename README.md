@@ -1,4 +1,4 @@
-lib-wp-phpunit
+WP PHPUnit
 ==============
 
-PHP Unit Tests Framework for Wordpress
+Wordpress PHP Unit Tests Framework

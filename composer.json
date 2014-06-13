@@ -1,0 +1,68 @@
+{
+  "name": "usabilitydynamics/lib-wp-phpunit",
+  "version": "0.1.0",
+  "type": "wordpress-library",
+  "homepage": "https://github.com/UsabilityDynamics/lib-wp-phpunit",
+  "keywords": [
+    "tests",
+    "phpunit"
+  ],
+  "extra": {
+    "id": "lib-wp-phpunit",
+    "text_domain": "lib-wp-phpunit",
+    "installer-name": "lib-wp-phpunit",
+    "installer-paths": {
+      "vendor/modules/{$name}":       [ "type:wordpress-module" ],
+      "vendor/libraries/{$name}":     [ "type:wordpress-library" ]
+    }
+  },
+  "authors": [
+    {
+      "name": "Andy Potanin",
+      "homepage": "http://usabilitydynamics.com"
+    },
+    {
+      "name": "Maxim Peshkov",
+      "email": "maxim.peshkov@usabilitydynamics.com",
+      "homepage": "http://usabilitydynamics.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Anton Korotkov",
+      "email": "anton.korotkov@usabilitydynamics.com",
+      "homepage": "http://usabilitydynamics.com",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://repository.usabilitydynamics.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor/libraries",
+    "bin-dir": "vendor/bin",
+    "optimize-autoloader": true,
+    "autoloader-suffix": "VendorPackages"
+  },
+  "require": {
+    
+  },
+  "require-dev": {
+    
+  },
+  "autoload": {
+    "classmap": [ "lib" ]
+  },
+  "scripts": {
+    "pre-install-cmd": [
+      "npm install --silent"
+    ],
+    "post-install-cmd": [
+      "grunt build --force"
+    ]
+  },
+  "license": "GNU",
+  "minimum-stability": "dev"
+}
