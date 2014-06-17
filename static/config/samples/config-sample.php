@@ -1,13 +1,11 @@
 <?php
+/* Path to the WordPress codebase you'd like to test. Add a backslash in the end. */
+define( 'ABSPATH', 'path-to-WP' );
 
-/**  */
-define( 'ABSPATH', dirname( dirname( dirname( __FILE__ ) ) ) . '/wordpress/' );
-
-/** */
-define( 'DB_NAME', 'udd_wp_tests' );
-define( 'DB_USER', 'udd_wptests' );
-define( 'DB_PASSWORD', 'A+%2Mm9B4*5^' );
-define( 'DB_HOST', '216.22.20.141' );
+define( 'DB_NAME', 'trunk_test' );
+define( 'DB_USER', 'user' );
+define( 'DB_PASSWORD', 'password' );
+define( 'DB_HOST', 'localhost' );
 define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
 
