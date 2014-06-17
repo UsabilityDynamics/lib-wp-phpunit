@@ -15,10 +15,10 @@ define( 'WPLANG', '' );
 define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_DISPLAY', true );
 
-define( 'WP_TESTS_DOMAIN', 'example.org' );
-define( 'WP_TESTS_EMAIL', 'admin@example.org' );
-define( 'WP_TESTS_TITLE', 'Test Blog' );
-define( 'WP_TESTS_NETWORK_TITLE', 'Test Network' );
+define( 'WP_TESTS_DOMAIN', 'http://unit-tests.ud-dev.com' );
+define( 'WP_TESTS_EMAIL', 'unittest@usabilitydynamics.com' );
+define( 'WP_TESTS_TITLE', 'PHPUnit Test Blog' );
+define( 'WP_TESTS_NETWORK_TITLE', 'PHPUnit Test Network' );
 define( 'WP_TESTS_SUBDOMAIN_INSTALL', true );
 $base = '/';
 
