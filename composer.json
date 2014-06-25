@@ -12,8 +12,12 @@
     "text_domain": "lib-wp-phpunit",
     "installer-name": "lib-wp-phpunit",
     "installer-paths": {
-      "vendor/modules/{$name}":       [ "type:wordpress-module" ],
-      "vendor/libraries/{$name}":     [ "type:wordpress-library" ]
+      "vendor/modules/{$name}": [
+        "type:wordpress-module"
+      ],
+      "vendor/libraries/{$name}": [
+        "type:wordpress-library"
+      ]
     }
   },
   "authors": [
@@ -51,7 +55,9 @@
     "usabilitydynamics/lib-wordpress-tests": "master"
   },
   "autoload": {
-    "classmap": [ "lib" ]
+    "classmap": [
+      "lib"
+    ]
   },
   "scripts": {
     "pre-install-cmd": [
