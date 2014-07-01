@@ -13,10 +13,10 @@
 define( 'TEST_ROOT_PATH', 'PATH_TO_ROOT' );
 
 /** 
- * OPTIONAL. 
- * YOU CAN SET YOUR CUSTOM PATH TO CONFIG FILE HERE. 
+ * REQUIRED. 
+ * YOU MUST SET YOUR CUSTOM PATH TO CONFIG FILE HERE. 
  *
- * Note: default config file can be found in 'static/config/' directory.
+ * Note: sample config file 'wp-test-config-sample.php' can be found in 'static/samples/' directory.
  */
 $config = false;
 
