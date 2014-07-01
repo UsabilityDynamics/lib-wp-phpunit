@@ -51,6 +51,7 @@
     "autoloader-suffix": "VendorPackages"
   },
   "require": {
+    "automattic/wordpress": "master",
     "phpunit/phpunit": "3.7.*",
     "usabilitydynamics/lib-wordpress-tests": "master"
   },
