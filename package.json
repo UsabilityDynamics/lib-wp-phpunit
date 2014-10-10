@@ -1,6 +1,6 @@
 {
   "name": "lib-wp-phpunit",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Wordpress PHP Unit Tests Framework",
   "private": false,
   "repository": {
