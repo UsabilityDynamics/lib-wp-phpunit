@@ -1,25 +1,10 @@
 {
   "name": "usabilitydynamics/lib-wp-phpunit",
-  "version": "0.1.0",
-  "type": "wordpress-library",
   "homepage": "https://github.com/UsabilityDynamics/lib-wp-phpunit",
   "keywords": [
     "tests",
     "phpunit"
   ],
-  "extra": {
-    "id": "lib-wp-phpunit",
-    "text_domain": "lib-wp-phpunit",
-    "installer-name": "lib-wp-phpunit",
-    "installer-paths": {
-      "vendor/modules/{$name}": [
-        "type:wordpress-module"
-      ],
-      "vendor/libraries/{$name}": [
-        "type:wordpress-library"
-      ]
-    }
-  },
   "authors": [
     {
       "name": "Andy Potanin",
@@ -44,28 +29,14 @@
       "url": "http://repository.usabilitydynamics.com"
     }
   ],
-  "config": {
-    "vendor-dir": "vendor/libraries",
-    "bin-dir": "vendor/bin",
-    "optimize-autoloader": true,
-    "autoloader-suffix": "VendorPackages"
-  },
   "require": {
-    "usabilitydynamics/wordpress": "4.*",
+    "usabilitydynamics/wordpress": "4.0",
     "phpunit/phpunit": "3.7.*",
     "usabilitydynamics/lib-wordpress-tests": "master"
   },
   "autoload": {
     "classmap": [
       "lib"
-    ]
-  },
-  "scripts": {
-    "pre-install-cmd": [
-      "npm install --silent"
-    ],
-    "post-install-cmd": [
-      "grunt build --force"
     ]
   },
   "license": "GNU",
