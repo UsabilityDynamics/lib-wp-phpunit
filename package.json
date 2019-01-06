@@ -1,11 +1,11 @@
 {
   "name": "lib-wp-phpunit",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Wordpress PHP Unit Tests Framework",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/UsabilityDynamics/lib-wp-phpunit"
+    "url": "https://github.com/udx/lib-wp-phpunit"
   },
   "engines": {
     "node": ">= 0.10.0"
