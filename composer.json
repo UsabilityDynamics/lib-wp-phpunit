@@ -32,7 +32,7 @@
   "require": {
     "usabilitydynamics/wordpress": "4.0",
     "phpunit/phpunit": "3.7.*",
-    "udx/lib-wordpress-tests": "dev-master"
+    "udx/lib-wordpress-tests": "~3.6"
   },
   "autoload": {
     "classmap": [
